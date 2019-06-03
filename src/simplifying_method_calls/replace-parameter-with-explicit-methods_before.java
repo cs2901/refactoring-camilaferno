@@ -9,3 +9,13 @@ void setValue(String name, int value) {
   }
   Assert.shouldNeverReachHere();
 }
+
+void setHeight (int value){
+    height = value;
+    return;
+}
+
+int setWidth (int value){
+    width = value;
+    return;
+}
